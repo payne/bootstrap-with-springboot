@@ -26,4 +26,9 @@ public class WebAppContoller {
 
         return "index";
     }
+
+    @RequestMapping("/about")
+    public String about(Model model){
+        return "about";
+    }
 }
